@@ -2,9 +2,24 @@
         background-color: #363636;
 
     }
-    img{
-        width: 50%;
+     .img_topo{
+        width: 100%;
         height: ;
+    }
+    .img_corpo{
+        width: 60%;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    h1{ 
+       text-align:  center;
+    }
+    p{
+        font-size: 1.5em;
+        text-align: justify;
+        text-indent: 35px;
     }
 
     figure{
