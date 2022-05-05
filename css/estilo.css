@@ -1,4 +1,7 @@
-    body{
+   html{
+       scroll-behavior: smooth;
+   }
+   body{
         background-color: #363636;
 
     }
@@ -24,6 +27,19 @@
 
     figure{
         text-align: center;
+    }
+    .ciel_pha > p{
+        font-size: 2em;
+        text-align: center;
+    }
+    .botao{
+        width: 100px;
+        height: 50px;
+        background-color: blue;
+        color: darkblue;
+    }
+    .botao p{
+        padding-top: 15px;
     }
          	
 
