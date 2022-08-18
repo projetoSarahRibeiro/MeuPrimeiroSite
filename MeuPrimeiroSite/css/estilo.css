@@ -1,120 +1,234 @@
-   html{
-       scroll-behavior: smooth;
-   }
-   .menu{
-       background-color:	(173,216,230,0.3);
-       padding: 2%;
-       text-align: center;
-       line-height: 1.7em;
-       
-   }
-   .section{
-       margin-top: 2%;
-       margin-bottom: 2%;
-   }
-  
-  
-   .itens_menu{
-       text-align: center;
-   }
-   
-   body{
-        background-color: #B0C4DE;
-        color: 	#6495ED;
-        text-align: none;
+html{
+    scroll-behavior: smooth;
+}
 
-    }
-    h1{
-       
-        font-size: 2em;
-        text-align:  center;
-        padding-top: 2%;
-        padding-bottom: 2%;  
-    }
-     .img_topo{
-        width: 100%;
-        height: ;
-    }
-    .img_corpo{
-        width: 60%;
-    }
-    .container{
-        width: 80%;
-        margin: auto;
-    }
-    p{
-        color: 	#708090 	;
-        font-size: 1.5em;
-        line-height: 1.7;
-        text-align: justify;
-        text-indent: 35px;
-    }
 
-    figure{
-        text-align: center;
-    }
-    .ciel_pha > p{
-        font-size: 2em;
-        text-align: center;
-    }
-    .botao{
-        width: 125px;
-        height: 50px;
-        background-color: 	#87CEEB;
-        color: darkblue;
-       
-    }
-    .botao p{
-        padding-top: 15px;
-        color: cadetblue;
-        
-    }
-    footer{
-        background-color: 	#808080;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-    footer p{
-        font-size: 1em;
-        text-align: center;
-        color: #F8F8FF;
-        font-weight: bold;
-    } 
-    .center{
-        text-align: center;
-    }
-    .esquerda{
-        float: left;
-        width: 25%;
-        margin-top: 2%;
-      
-    } 
-    .direita{
-        float: right;
-        width: 30%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-    a:link {
-        background-color: rgb(0, 225, 255);
-      }
-      
-      a:visited {
-        background-color: rgb(29, 82, 196);
-      }
-      
-      
-      a:active {
-        background-color: rgb(30, 82, 141);
-      }
-      table{
-        border-collapse: collapse;
-        width: 50%;
-      }
-      td,th{
-        text-align: center;
-        border: 1px solid #4682B4;
-        padding: 8px;
-      }
-        
 
+.menu{
+    background-color: #87CEFA;       
+    padding: 2%;
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.itens_menu{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.itens_menu a:link, .itens_menu a:visited{
+
+    color: 	#0a3141 ;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.itens_menu a:hover{
+    padding: 0.8%;
+    background-color: 	#248fb9 ;
+}
+
+.itens_menu a:active {
+    color: #0a3141 ;
+}
+
+#veja_mais a:link, #veja_mais a:visited{
+
+    color: #4169E1;
+    font-size: 1.2em;
+    
+}
+#veja_mais a:hover{
+    color: #1E90FF ;
+}
+
+body{
+    background-color: #1E90FF87;
+}
+
+figure{
+
+    text-align: center;
+    
+
+}
+
+h1{
+    color: #110642;
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.img_topo{
+    width: 100%;
+    
+}
+
+.img_corpo{
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.img_direito{
+    float: right;
+    width: 40%;
+    padding-left: 1%;
+}
+
+.img_esquerdo{
+    float: left;
+    width: 40%;
+    height: 37%;
+    padding-right: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+
+font-size: 1.3em;
+text-align: justify;
+text-indent:35px;
+line-height: 1.5;
+font-family: 'Caveat', cursive;
+}
+
+.parag_letras > p{
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.botao {
+    width: 130px;
+    height: 20px;
+    background-color:  rgba(9, 7, 6, 0.3);
+    padding: 1%;
+    margin: auto;  
+    margin-bottom: 2%; 
+    margin-top: 2%;
+    
+}
+
+.botao a:link, .botao a:visited {
+    color:	#18126d;
+    text-decoration:none;
+    font-weight: bolder;
+
+
+}
+
+.botao a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+.botao:hover {  
+    background-color: #2d95eb;
+    color: black;
+    
+}
+footer{
+    background-color: rgba(9, 7, 6, 0.3);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+footer p{    
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+}
+.center{
+    text-align: center;    
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th{
+    font-size: 1.5em;
+    color: #2400a8; 
+    font-weight: bold;
+
+}
+
+td, th {
+    border: 3px dashed #050047; 
+    padding-top: 1% ;   
+    padding-bottom: 1%;
+    text-align: center;
+
+}
+
+td:first-child { 
+    width: 30%;  
+}
+td:first-child + td {  
+    width: 70%; 
+}
+
+audio{
+    width: 60%;
+    
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: 	#87CEFA;  
+}
+
+form{
+    box-sizing: border-box;
+}
+
+input[type=text], select, input[type=tel], input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+
+label{
+    width: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+input[type=radio]{
+    display: block;
+}
+
+.form{
+    background-color:rgba(38, 22, 184, 0.3) ;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    float: left;
+}
