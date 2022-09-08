@@ -1,20 +1,37 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #1E90FF87;
+}
 
-
-
-.menu{
+header{
     background-color: #87CEFA;       
     padding: 2%;
     text-align: center;
     line-height: 1.7em;
 }
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+  
 
 .itens_menu{
     text-align: center;
     line-height: 1.5;
 }
+h1{
+    color: #110642;
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
 
 .itens_menu a:link, .itens_menu a:visited{
 
@@ -43,9 +60,7 @@ html{
     color: #1E90FF ;
 }
 
-body{
-    background-color: #1E90FF87;
-}
+
 
 figure{
 
@@ -53,15 +68,17 @@ figure{
     
 
 }
-
-h1{
-    color: #110642;
-    font-size: 2em;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-weight: bold;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+.logo{
+    text-align: center;
 }
+.img_logo{
+    width: 5%;
+}
+
+.banner{
+    margin-top: 30%;
+}
+
 
 .img_topo{
     width: 100%;
