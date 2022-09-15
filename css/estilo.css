@@ -68,16 +68,11 @@ figure{
     
 
 }
-.logo{
-    text-align: center;
-}
+
 .img_logo{
     width: 5%;
 }
 
-.banner{
-    margin-top: 30%;
-}
 
 
 .img_topo{
@@ -272,5 +267,40 @@ input[type=submit] {
     width: 90%;
     margin-top: 0;
     }
+    .banner{
+        margin-top: 30%;
+    }
+    .logo{
+        text-align: center;
+    }
+    
+    
+}
+@media screen and (min-width: 601px) {
+    header{
+        background-color: #1E90FF ;
+        flex-direction: row;
+    }
+    .itens_menu{
+        position: absolute;
+        right: 5%;
+        width: 20%;
+       margin-bottom: 70%;
+    }
+    .logo{
+        text-align: right;
+        width: 5%;
+    }
+    .banner{
+
+        margin-top: 5%;
+    }
+    .img_logo{
+        width: 30%;
+    }
+
+
+
+
     
 }
