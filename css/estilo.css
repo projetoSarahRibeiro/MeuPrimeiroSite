@@ -207,7 +207,7 @@ audio{
 
 audio::-webkit-media-controls-play-button,
 audio::-webkit-media-controls-panel {
-  background-color: 	#87CEFA;  
+   background-color: #87CEFA;  
 }
 
 
@@ -278,29 +278,41 @@ input[type=submit] {
 }
 @media screen and (min-width: 601px) {
     header{
-        background-color: #1E90FF ;
+        background-color: #1E90FF;
         flex-direction: row;
+        width: 100%;
+        
+
     }
+
     .itens_menu{
         position: absolute;
-        right: 5%;
-        width: 20%;
-       margin-bottom: 70%;
+        right: 15%;
+        width: 80%;
+        
     }
+
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 2%;
+
+    }
+
     .logo{
-        text-align: right;
-        width: 5%;
+        text-align: left;
+        width: 10%;
     }
+
     .banner{
 
-        margin-top: 5%;
+        margin-top: 6%;
     }
+
     .img_logo{
         width: 30%;
     }
-
-
+    
 
 
     
-}
+  }
